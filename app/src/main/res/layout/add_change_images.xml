@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddOrChangeImagesActivity">
+
+    <TextView
+        android:id="@+id/addImagesTV"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/addImagesText" />
+
+    <LinearLayout
+        android:id="@+id/imagesMainLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addImagesTV"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/imagesLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/defaultCV"
+                android:layout_width="120dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/defaultImgView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/imageview_background"
+                    android:contentDescription="@string/defaultImage"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/cancel_Add_ImageView1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end|bottom"
+                    android:contentDescription="@string/cancelImage"
+                    android:src="@drawable/ic_cancel" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imgCV2"
+                android:layout_width="120dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="8dp">
+                <ImageView
+                    android:id="@+id/imgView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/imageview_background"
+                    android:contentDescription="@string/moreImages"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/cancel_Add_ImageView2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end|bottom"
+                    android:contentDescription="@string/cancelImage" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imgCV3"
+                android:layout_width="120dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/imgView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/imageview_background"
+                    android:contentDescription="@string/moreImages"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/cancel_Add_ImageView3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end|bottom"
+                    android:contentDescription="@string/cancelImage" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imagesLL2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imgCV4"
+                android:layout_width="120dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/imgView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/imageview_background"
+                    android:contentDescription="@string/defaultImage"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/cancel_Add_ImageView4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end|bottom"
+                    android:contentDescription="@string/cancelImage" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imgCV5"
+                android:layout_width="120dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/imgView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/imageview_background"
+                    android:contentDescription="@string/defaultImage"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/cancel_Add_ImageView5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end|bottom"
+                    android:contentDescription="@string/cancelImage" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imgCV6"
+                android:layout_width="120dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/imgView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/imageview_background"
+                    android:contentDescription="@string/defaultImage"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/cancel_Add_ImageView6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end|bottom"
+                    android:contentDescription="@string/cancelImage" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
