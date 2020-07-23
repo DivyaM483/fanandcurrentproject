@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">settings</string>
+<string name="user_name">User Name</string>
+    <string name="user_desc">Android Developer</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="favorites">Favorites</string>
+    <string name="notifications">Notifications</string>
+    <string name="inviteFrnds">Invite Friends</string>
+    <string name="aboutUs">About Us</string>
+    <string name="forward_string">Forward</string>
+    <string name="signout">Sign Out</string>
+    <string name="help_feedback">Need Help?</string>
+    <string name="age">Age</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="FullName">Full Name</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="profession">Profession</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="defaultImage">Default Image</string>
+    <string name="cancelImage">Cancel Image</string>
+    <string name="moreImages">More Images</string>
+    <string name="addImagesText">The more photos you add..the more visible your are.. </string>
+
+
+</resources>
